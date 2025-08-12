@@ -1,9 +1,11 @@
+<footer class="mt-auto w-100" style="background:#0a2356; color:#fff;">
+    <footer class="mt-auto w-100" style="background:#0a2356; color:#fff;">
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>公司首页 - 低空经济无人机服务</title>
+    <title>首页 - 宇智飞翔无人机培训基地</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <style>
@@ -19,15 +21,17 @@
     </style>
 </head>
 <body>
+    <body style="background:#fff;">
+    <div style="background:#fff;">
     <!-- 页眉 -->
     <header class="bg-white border-bottom shadow-sm">
         <div class="container d-flex align-items-center py-3">
-                <img src="images/logo.png" alt="公司LOGO" style="height:80px; width:auto;" class="me-4">
+            <img src="images/logo.png" alt="公司LOGO" style="height:80px; width:auto;" class="me-4">
             <div class="flex-grow-1">
                 <h1 class="mb-1" style="font-family:'SimHei', '黑体', Arial; font-size:1.5rem; font-weight:bold; color:#222;">专业无人机培训基地</h1>
                 <h2 class="mb-0" style="font-size:1.0rem; font-weight:300; color:#888;">用智能科技领航低空未来</h2>
             </div>
-            <div class="ms-auto text-end d-flex align-items-center flex-column">
+         <div class="ms-auto text-end d-flex align-items-center flex-column">
                 <div class="d-flex align-items-center mb-1">
                     <img src="images/icon/phone.png" alt="电话图标" style="height:24px;width:24px;" class="me-2">
                     <span class="fs-6 text-secondary">全国服务热线</span>
@@ -42,10 +46,12 @@
     <style>
         .main-navbar {
             transition: background 0.2s;
+            padding:0;
         }
         .navbar-nav {
             width: 100%;
             display: flex;
+            padding: 0;
         }
         .navbar-nav .nav-item {
             flex: 1 1 0;
@@ -91,29 +97,719 @@
                 </ul>
             </div>
         </div>
+        </nav>
+
+        <!-- 轮播图放在主体内容之前 -->
+            <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" style="margin-top:0;">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="第1张"></button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="第2张"></button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="第3张"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/banner/banner-1.jpg" class="d-block w-100" alt="轮播图1" style="width:100vw; max-height:520px; object-fit:cover;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner/banner-2.jpg" class="d-block w-100" alt="轮播图2" style="width:100vw; max-height:520px; object-fit:cover;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner/banner-3.jpg" class="d-block w-100" alt="轮播图3" style="width:100vw; max-height:520px; object-fit:cover;">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">上一张</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">下一张</span>
+                </button>
+            </div>
+
+            <!-- 灰色关键词栏放在轮播图下方 -->
+            <div style="height:60px; background:#f5f7fa; display:flex; align-items:center; justify-content:center; margin-bottom:0; border-bottom:1px solid #e0e3e8;">
+                <div style="display:flex; align-items:center; width:100%; max-width:1200px;">
+                    <span style="font-size:13px; color:#222; margin-right:24px;">热门关键词：</span>
+                    <span style="font-size:13px; color:#1976d2; margin-right:18px;">无人机执照培训</span>
+                    <span style="font-size:13px; color:#1976d2; margin-right:18px;">行业应用方案</span>
+                    <form class="d-flex align-items-center ms-auto" style="flex:1; max-width:320px; height:40px;">
+                        <div style="position:relative; width:100%; height:40px; display:flex; align-items:center;">
+                            <input class="form-control" type="search" placeholder="AI智能搜索" aria-label="AI搜索" style="border-radius:24px; padding-right:36px; font-size:13px; height:40px; display:flex; align-items:center;">
+                            <button type="submit" style="position:absolute; right:8px; top:50%; transform:translateY(-50%); border:none; background:transparent; padding:0;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#1976d2" viewBox="0 0 16 16">
+                                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85zm-5.242 1.106a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
     </nav>
 
     <!-- 主体内容 -->
-    <main class="container my-5">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <h3 class="mb-3">欢迎来到低空经济无人机服务平台</h3>
-                <p class="lead">我们致力于为各行业提供专业的无人机应用解决方案，包括执照培训、行业服务、案例分享等，助力企业实现智能化升级。</p>
-                <ul>
-                    <li>无人机执照培训，助力个人与企业提升专业能力</li>
-                    <li>行业应用服务，覆盖农业、测绘、安防、物流等领域</li>
-                    <li>丰富案例，展示公司实力与服务成果</li>
-                </ul>
-                <a href="about.html" class="btn btn-primary mt-3">了解更多</a>
+    <main class="container-fluid px-0" style="background:#fff;">
+    <div class="row justify-content-center" style="position:relative; min-height:220px; margin-top:0;">
+            <div style="position:absolute; inset:0; width:100vw; height:100%; z-index:0; margin:0;">
+                <img src="images/city.jpeg" alt="背景" style="position:absolute; inset:0; width:100vw; height:100%; object-fit:cover; opacity:0.12; display:block; margin:0;">
             </div>
-            <div class="col-md-6 text-center">
-                <img src="images/banner/index_banner.jpg" alt="首页展示图" class="img-fluid rounded shadow">
+            <div class="col-12 text-center" style="position:relative; z-index:1;">
+                <h1 style="font-family:'SimHei','黑体',Arial; font-size:3.2rem; font-weight:900; color:#222; margin-bottom:2.2rem; position:relative; top:1.5rem;">宇智飞翔，带着您的梦想一起飞翔</h1>
+                <div style="font-size:2rem; color:#030f1c; font-weight:500; margin-bottom:3.5rem; position:relative; top:0.7rem;">低空经济人才一体化培养2000+优秀人才培训</div>
+                <img src="images/dream.jpg" alt="梦想" style="max-width:1200px; width:100%; height:auto; margin-bottom:2.2rem; margin-top:1.5rem; box-shadow:0 2px 16px rgba(0,0,0,0.08); border-radius:16px;">
+                <div class="row text-center" style="max-width:1200px; margin:0 auto;">
+                    <div class="col-6 col-md-2 offset-md-1 mb-3">
+                        <div style="font-family:'Oswald','Impact','Arial Black',Arial,sans-serif; font-size:3.2rem; color:#1976d2; font-weight:bold; line-height:1; letter-spacing:2px;">30+</div>
+                        <div style="font-size:1.15rem; color:#222;">飞行团队</div>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <div style="font-family:'Oswald','Impact','Arial Black',Arial,sans-serif; font-size:3.2rem; color:#1976d2; font-weight:bold; line-height:1; letter-spacing:2px;">20+</div>
+                        <div style="font-size:1.15rem; color:#222;">行业服务经验</div>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <div style="font-family:'Oswald','Impact','Arial Black',Arial,sans-serif; font-size:3.2rem; color:#1976d2; font-weight:bold; line-height:1; letter-spacing:2px;">100+</div>
+                        <div style="font-size:1.15rem; color:#222;">成功案例</div>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <div style="font-family:'Oswald','Impact','Arial Black',Arial,sans-serif; font-size:3.2rem; color:#1976d2; font-weight:bold; line-height:1; letter-spacing:2px;">10万+</div>
+                        <div style="font-size:1.15rem; color:#222;">飞行时长</div>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <div style="font-family:'Oswald','Impact','Arial Black',Arial,sans-serif; font-size:3.2rem; color:#1976d2; font-weight:bold; line-height:1; letter-spacing:2px;">8万+</div>
+                        <div style="font-size:1.15rem; color:#222;">累计学员</div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
+        <!-- 主体第二栏：核心优势 -->
+        <section class="w-100 px-0" style="background:#f7f9fc;">
+            <div class="container-fluid py-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <h1 style="font-family:'SimHei','黑体',Arial; font-size:3.2rem; font-weight:900; color:#222; margin-bottom:2.2rem;">核心优势</h1>
+                        <div style="font-size:2rem; color:#030f1c; font-weight:500; margin-bottom:3.5rem;">6大核心优势，客户价值优先</div>
+                    </div>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <!-- 优势块循环 -->
+                    <!-- 优势1 -->
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="d-flex shadow rounded-4 bg-white h-100 p-3 align-items-center">
+                            <div class="position-relative me-3" style="width:120px; min-width:120px;">
+                                <img src="images/good/ys01.jpg" alt="自有考场" class="w-100 rounded-3" style="object-fit:cover; height:120px;">
+                                <span class="position-absolute" style="left:8px; bottom:8px; background:rgba(0,128,0,0.85); color:#fff; font-size:1.8rem; font-weight:bold; border-radius:50%; width:40px; height:40px; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 8px rgba(0,0,0,0.12);">01</span>
+                            </div>
+                            <div class="flex-grow-1 ps-2">
+                                <div style="font-size:1.2rem; font-weight:600; color:#2e7d32;">自有考场</div>
+                                <div style="font-size:1rem; color:#222;">吃住行培训考评一站式服务，培训场地就是考点，训练规范、要求严格；纪律严明，准军事化管理。</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 优势2 -->
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="d-flex shadow rounded-4 bg-white h-100 p-3 align-items-center">
+                            <div class="position-relative me-3" style="width:120px; min-width:120px;">
+                                <img src="images/good/ys02.jpg" alt="团队实力" class="w-100 rounded-3" style="object-fit:cover; height:120px;">
+                                <span class="position-absolute" style="left:8px; bottom:8px; background:#1976d2; color:#fff; font-size:1.8rem; font-weight:bold; border-radius:50%; width:40px; height:40px; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 8px rgba(0,0,0,0.12);">02</span>
+                            </div>
+                            <div class="flex-grow-1 ps-2">
+                                <div style="font-size:1.2rem; font-weight:600; color:#1976d2;">团队实力</div>
+                                <div style="font-size:1rem; color:#222;">采取理论+技能+就业的教学模式，教员针对性手把手辅导，将理论与实践结合，保证高质量、高强度训练；为供电局、机关单位，企业院校等上万家企业培养输送无人机人才。</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 优势3 -->
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="d-flex shadow rounded-4 bg-white h-100 p-3 align-items-center">
+                            <div class="position-relative me-3" style="width:120px; min-width:120px;">
+                                <img src="images/good/ys03.jpg" alt="学员评价" class="w-100 rounded-3" style="object-fit:cover; height:120px;">
+                                <span class="position-absolute" style="left:8px; bottom:8px; background:#ff9800; color:#fff; font-size:1.8rem; font-weight:bold; border-radius:50%; width:40px; height:40px; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 8px rgba(0,0,0,0.12);">03</span>
+                            </div>
+                            <div class="flex-grow-1 ps-2">
+                                <div style="font-size:1.2rem; font-weight:600; color:#ff9800;">学员评价</div>
+                                <div style="font-size:1rem; color:#222;">宇智飞翔无人机飞行培训基地与学员的故事，作为0基础小白，在全球鹰无人机飞行培训基地学习期间，教员一直给我加油打气，让我一次性通过考试，还为我推荐一份非常好的就业岗位！</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 优势4 -->
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="d-flex shadow rounded-4 bg-white h-100 p-3 align-items-center">
+                            <div class="position-relative me-3" style="width:120px; min-width:120px;">
+                                <img src="images/good/ys04.jpg" alt="学员生态圈" class="w-100 rounded-3" style="object-fit:cover; height:120px;">
+                                <span class="position-absolute" style="left:8px; bottom:8px; background:#43a047; color:#fff; font-size:1.8rem; font-weight:bold; border-radius:50%; width:40px; height:40px; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 8px rgba(0,0,0,0.12);">04</span>
+                            </div>
+                            <div class="flex-grow-1 ps-2">
+                                <div style="font-size:1.2rem; font-weight:600; color:#43a047;">学员生态圈</div>
+                                <div style="font-size:1rem; color:#222;">免费加入宇智飞翔学员生态圈，优秀学员可加入本学院师资队伍，并录入人才猎头库，优先获得无人机服务平台机会。</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 优势5 -->
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="d-flex shadow rounded-4 bg-white h-100 p-3 align-items-center">
+                            <div class="position-relative me-3" style="width:120px; min-width:120px;">
+                                <img src="images/good/ys05.jpg" alt="荣誉资质" class="w-100 rounded-3" style="object-fit:cover; height:120px;">
+                                <span class="position-absolute" style="left:8px; bottom:8px; background:#d32f2f; color:#fff; font-size:1.8rem; font-weight:bold; border-radius:50%; width:40px; height:40px; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 8px rgba(0,0,0,0.12);">05</span>
+                            </div>
+                            <div class="flex-grow-1 ps-2">
+                                <div style="font-size:1.2rem; font-weight:600; color:#d32f2f;">荣誉资质</div>
+                                <div style="font-size:1rem; color:#222;">历年来荣获多项荣誉资质，先后获得“民用无人机驾驶员培训资质”、“中国无人机产业20强”、“最佳社会责任企业”、“无人机行业新锐奖”、“中国无人机运营服务十强”。</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 优势6 -->
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="d-flex shadow rounded-4 bg-white h-100 p-3 align-items-center">
+                            <div class="position-relative me-3" style="width:120px; min-width:120px;">
+                                <img src="images/good/ys06.jpg" alt="贴心服务" class="w-100 rounded-3" style="object-fit:cover; height:120px;">
+                                <span class="position-absolute" style="left:8px; bottom:8px; background:#0288d1; color:#fff; font-size:1.8rem; font-weight:bold; border-radius:50%; width:40px; height:40px; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 8px rgba(0,0,0,0.12);">06</span>
+                            </div>
+                            <div class="flex-grow-1 ps-2">
+                                <div style="font-size:1.2rem; font-weight:600; color:#0288d1;">贴心服务</div>
+                                <div style="font-size:1rem; color:#222;">1对1指导+线上+线下课程相结合，推出一系列增值服务，带给学员更多便捷、贴心的服务体验。</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <style>
+        .company-section .company-bg {
+            min-height:480px;
+            background:url('images/company_0.jpg') center/cover no-repeat;
+            position:relative;
+        }
+        .company-section .company-bg::after {
+            content:'';
+            position:absolute;
+            top:0;left:0;width:100%;height:100%;
+            background:rgba(0,0,0,0.5);
+            z-index:0;
+            pointer-events:none;
+        }
+        .company-section .container {
+            position:relative;
+            z-index:1;
+        }
+        </style>
+  
+
+        <!-- 主体第三栏：品牌展示 -->
+        <section class="w-100 px-0" style="background:#fff;">
+            <div class="container-fluid py-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <h1 style="font-family:'SimHei','黑体',Arial; font-size:3.2rem; font-weight:900; color:#222; margin-bottom:2.2rem;">无人机培训就选宇智飞翔</h1>
+                        <div style="font-size:2rem; color:#030f1c; font-weight:500; margin-bottom:3.5rem;">连续获得华南地区客户最满意无人机培训机构</div>
+                    </div>
+                </div>
+                <div class="row gx-0 justify-content-center align-items-stretch" style="width:100%;">
+                    <!-- 品牌实力 -->
+                    <div class="col-12 col-md-3 p-0" style="border-right:1px solid #e0e3e8;">
+                        <div class="position-relative h-100 brand-block" style="overflow:hidden;">
+                            <img src="images/xw/xw01.jpg" class="w-100 h-100 brand-img" style="object-fit:cover; min-height:260px; transition:opacity 0.5s;" alt="品牌实力">
+                               <div class="brand-center">
+                                   <div style="font-size:2.2rem; font-weight:bold;">品牌实力</div>
+                                   <div style="font-size:1.1rem; font-weight:500; margin-top:0.5rem;">40+线下服务</div>
+                               </div>
+                               <div class="brand-overlay"></div>
+                        </div>
+                    </div>
+                    <!-- 落地系统 -->
+                    <div class="col-12 col-md-3 p-0" style="border-right:1px solid #e0e3e8;">
+                        <div class="position-relative h-100 brand-block" style="overflow:hidden;">
+                            <img src="images/xw/xw02.jpg" class="w-100 h-100 brand-img" style="object-fit:cover; min-height:260px; transition:opacity 0.5s;" alt="落地系统">
+                               <div class="brand-center">
+                                   <div style="font-size:2.2rem; font-weight:bold;">落地系统</div>
+                                   <div style="font-size:1.1rem; font-weight:500; margin-top:0.5rem;">20%理论课程+80%实践演练</div>
+                               </div>
+                               <div class="brand-overlay"></div>
+                        </div>
+                    </div>
+                    <!-- 荣誉满墙 -->
+                    <div class="col-12 col-md-3 p-0" style="border-right:1px solid #e0e3e8;">
+                        <div class="position-relative h-100 brand-block" style="overflow:hidden;">
+                            <img src="images/xw/xw03.jpg" class="w-100 h-100 brand-img" style="object-fit:cover; min-height:260px; transition:opacity 0.5s;" alt="荣誉满墙">
+                               <div class="brand-center">
+                                   <div style="font-size:2.2rem; font-weight:bold;">荣誉满墙</div>
+                                   <div style="font-size:1.1rem; font-weight:500; margin-top:0.5rem;">人社部参编单位</div>
+                               </div>
+                               <div class="brand-overlay"></div>
+                        </div>
+                    </div>
+                    <!-- 服务保障 -->
+                    <div class="col-12 col-md-3 p-0">
+                        <div class="position-relative h-100 brand-block" style="overflow:hidden;">
+                            <img src="images/xw/xw04.jpg" class="w-100 h-100 brand-img" style="object-fit:cover; min-height:260px; transition:opacity 0.5s;" alt="服务保障">
+                               <div class="brand-center">
+                                   <div style="font-size:2.2rem; font-weight:bold;">服务保障</div>
+                                   <div style="font-size:1.1rem; font-weight:500; margin-top:0.5rem;">1对1指导+免费巩固提升</div>
+                               </div>
+                               <div class="brand-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style>
+                .brand-block {
+                    position:relative;
+                }
+                .brand-block .brand-img {
+                    z-index:1;
+                    transition:filter 0.4s;
+                    position:relative;
+                }
+                .brand-block .brand-overlay {
+                    position:absolute;
+                    top:0; left:0; width:100%; height:100%;
+                    background:rgba(0,0,0,0.45);
+                    opacity:1;
+                    z-index:2;
+                    pointer-events:none;
+                }
+                .brand-block .brand-center {
+                    z-index:10;
+                    position:absolute;
+                    top:50%; left:50%; transform:translate(-50%,-50%);
+                    width:100%; text-align:center;
+                    color:#fff;
+                    text-shadow:0 2px 8px #1976d2, 0 0 8px #000;
+                    font-family:'Impact','Arial Black',Arial,sans-serif;
+                    pointer-events:none;
+                }
+                .brand-block:hover .brand-img {
+                    filter:brightness(0.7) grayscale(0.2);
+                }
+                .brand-block:hover .brand-center div:first-child {
+                    color:#ffd600 !important;
+                    text-shadow:0 2px 16px #000,0 0 8px #ffd600;
+                    font-size:2.6rem !important;
+                    font-weight:900;
+                }
+                .brand-block:hover .brand-center div:last-child {
+                    color:#fff !important;
+                    text-shadow:0 2px 8px #000;
+                    font-size:1.3rem !important;
+                    font-weight:700;
+                }
+            </style>
+        </section>
+      <!-- 主体第四栏：行业解决方案 -->
+        <section class="w-100 px-0 solution-section" style="background:#f7f9fb;">
+            <div class="container-fluid py-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <h1 style="font-family:'SimHei','黑体',Arial; font-size:3.2rem; font-weight:900; color:#222; margin-bottom:2.2rem;">行业解决方案</h1>
+                        <div style="font-size:2rem; color:#030f1c; font-weight:500; margin-bottom:3.5rem;">定制化方案，满足您个性化要求。</div>
+                    </div>
+                </div>
+                <div class="position-relative mb-4" style="height:700px;">
+                    <img id="solution-bg" src="images/apply/yy01.jpg" alt="行业解决方案" class="w-100 h-100 object-fit-cover solution-main-img" style="border-radius:12px; object-fit:cover; transition:0.3s;">
+                    <div class="solution-cards d-flex justify-content-between align-items-end position-absolute w-100" style="left:0;bottom:0;height:400px;padding:0;margin:0;">
+                        <!-- 连在一起的单行表格方案框 -->
+                        <div class="solution-card text-center p-3" style="width:16.666%;border:1px solid #e0e3e8;border-right:none;border-radius:0;cursor:pointer;background:transparent;transition:box-shadow .3s,transform .3s;position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center;margin:0;" data-img="images/apply/yy01.jpg">
+                            <div class="solution-title fw-bold mb-2" style="font-size:1.1rem;">公共安全解决方案</div>
+                            <div class="solution-desc" style="font-size:12px;font-family:'Microsoft YaHei';color:#fff;">加强现代化公共安全装备尤其是空中力量装备，供指挥者进行科学决策和判断</div>
+                            <div class="card-mask"></div>
+                        </div>
+                        <div class="solution-card text-center p-3" style="width:16.666%;border:1px solid #e0e3e8;border-right:none;border-radius:0;cursor:pointer;background:transparent;transition:box-shadow .3s,transform .3s;position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center;margin:0;" data-img="images/apply/yy02.jpg">
+                            <div class="solution-title fw-bold mb-2" style="font-size:1.1rem;">测绘勘探解决方案</div>
+                            <div class="solution-desc" style="font-size:12px;font-family:'Microsoft YaHei';color:#fff;">加强现代化公共安全装备尤其是空中力量装备，供指挥者进行科学决策和判断</div>
+                            <div class="card-mask"></div>
+                        </div>
+                        <div class="solution-card text-center p-3" style="width:16.666%;border:1px solid #e0e3e8;border-right:none;border-radius:0;cursor:pointer;background:transparent;transition:box-shadow .3s,transform .3s;position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center;margin:0;" data-img="images/apply/yy03.jpg">
+                            <div class="solution-title fw-bold mb-2" style="font-size:1.1rem;">电力巡检解决方案</div>
+                            <div class="solution-desc" style="font-size:12px;font-family:'Microsoft YaHei';color:#fff;">加强现代化公共安全装备尤其是空中力量装备，供指挥者进行科学决策和判断</div>
+                            <div class="card-mask"></div>
+                        </div>
+                        <div class="solution-card text-center p-3" style="width:16.666%;border:1px solid #e0e3e8;border-right:none;border-radius:0;cursor:pointer;background:transparent;transition:box-shadow .3s,transform .3s;position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center;margin:0;" data-img="images/apply/yy04.jpg">
+                            <div class="solution-title fw-bold mb-2" style="font-size:1.1rem;">能源水利解决方案</div>
+                            <div class="solution-desc" style="font-size:12px;font-family:'Microsoft YaHei';color:#fff;">加强现代化公共安全装备尤其是空中力量装备，供指挥者进行科学决策和判断</div>
+                            <div class="card-mask"></div>
+                        </div>
+                        <div class="solution-card text-center p-3" style="width:16.666%;border:1px solid #e0e3e8;border-right:none;border-radius:0;cursor:pointer;background:transparent;transition:box-shadow .3s,transform .3s;position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center;margin:0;" data-img="images/apply/yy05.jpg">
+                            <div class="solution-title fw-bold mb-2" style="font-size:1.1rem;">城市治理解决方案</div>
+                            <div class="solution-desc" style="font-size:12px;font-family:'Microsoft YaHei';color:#fff;">加强现代化公共安全装备尤其是空中力量装备，供指挥者进行科学决策和判断</div>
+                            <div class="card-mask"></div>
+                        </div>
+                        <div class="solution-card text-center p-3" style="width:16.666%;border:1px solid #e0e3e8;border-radius:0;cursor:pointer;background:transparent;transition:box-shadow .3s,transform .3s;position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center;margin:0;" data-img="images/apply/yy06.jpg">
+                            <div class="solution-title fw-bold mb-2" style="font-size:1.1rem;">运维巡检解决方案</div>
+                            <div class="solution-desc" style="font-size:12px;font-family:'Microsoft YaHei';color:#fff;">加强现代化公共安全装备尤其是空中力量装备，供指挥者进行科学决策和判断</div>
+                            <div class="card-mask"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style>
+                .solution-section .solution-card {
+                    background:transparent;
+                    box-shadow:none;
+                }
+                .solution-section .solution-card .solution-title,
+                .solution-section .solution-card .solution-desc {
+                    color:#fff !important;
+                }
+                .solution-section .solution-card .card-mask {
+                    position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0);border-radius:10px;pointer-events:none;transition:background 0.3s;
+                }
+                .solution-section .solution-card:hover .card-mask {
+                    background:rgba(0,0,0,0.32);
+                }
+                .solution-section .solution-card:active .card-mask {
+                    background:rgba(25,118,210,0.32);
+                }
+            </style>
+            <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var cards = document.querySelectorAll('.solution-card');
+                var bg = document.getElementById('solution-bg');
+                cards.forEach(function(card) {
+                    card.addEventListener('mouseenter', function() {
+                        var img = card.getAttribute('data-img');
+                        if(bg && img) bg.src = img;
+                    });
+                });
+            });
+            </script>
+    </section>
+
+
+        <!-- 主体第五栏：成功案例 -->
+    <section class="w-100 px-0 case-section" style="background:#f7f9fc;">
+            <div class="container-fluid py-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <h1 style="font-family:'SimHei','黑体',Arial; font-size:3.2rem; font-weight:900; color:#222; margin-bottom:2.2rem;">成功案例</h1>
+                        <div style="font-size:2rem; color:#030f1c; font-weight:500; margin-bottom:3.5rem;">500+企业受益，2000+学员实现新梦想</div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mb-4">
+                    <div class="col-12 text-center">
+                        <div class="btn-group case-tabs" role="group" aria-label="案例分类">
+                            <button type="button" class="btn case-tab" data-type="fs">飞手案例</button>
+                            <button type="button" class="btn case-tab" data-type="qy">企业案例</button>
+                            <button type="button" class="btn case-tab" data-type="bd">部队案例</button>
+                            <button type="button" class="btn case-tab active" data-type="zf">政府案例</button>
+                        </div>
+                    </div>
+                <style>
+                .case-section .case-tabs .case-tab {
+                    border-radius:0 !important;
+                    border:1px solid #444 !important;
+                    color:#222 !important;
+                    background:#fff !important;
+                    margin-right:3px;
+                    font-size:1rem;
+                    box-shadow:none;
+                    transition:background .2s, color .2s, border-color .2s;
+                }
+                .case-section .case-tabs .case-tab:last-child {
+                    margin-right:0;
+                }
+                .case-section .case-tabs .case-tab.active,
+                .case-section .case-tabs .case-tab:focus,
+                .case-section .case-tabs .case-tab:hover {
+                    background:#222 !important;
+                    color:#fff !important;
+                    border-color:#222 !important;
+                }
+                </style>
+            </div>
+            <div class="row justify-content-center case-list-row">
+                <!-- 案例图片模块 -->
+                <div class="col-12 col-md-3 mb-4 case-item">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="images/al/zf/zf01.jpg" class="card-img-top" alt="案例1" style="height:220px;object-fit:cover;border-radius:12px 12px 0 0;">
+                        <div class="card-body text-center" style="font-size:1.1rem;color:#222;">政府案例1</div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-4 case-item">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="images/al/zf/zf02.jpg" class="card-img-top" alt="案例2" style="height:220px;object-fit:cover;border-radius:12px 12px 0 0;">
+                        <div class="card-body text-center" style="font-size:1.1rem;color:#222;">政府案例2</div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-4 case-item">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="images/al/zf/zf03.jpg" class="card-img-top" alt="案例3" style="height:220px;object-fit:cover;border-radius:12px 12px 0 0;">
+                        <div class="card-body text-center" style="font-size:1.1rem;color:#222;">政府案例3</div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-4 case-item">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="images/al/zf/zf04.jpg" class="card-img-top" alt="案例4" style="height:220px;object-fit:cover;border-radius:12px 12px 0 0;">
+                        <div class="card-body text-center" style="font-size:1.1rem;color:#222;">政府案例4</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <a href="#" class="btn" style="font-size:12px;border-radius:8px;background:#444;color:#fff;padding:8px 24px;">更多案例&gt;&gt;</a>
+                </div>
+            </div>
+        </div>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var tabMap = {
+                fs: [
+                    {img:'images/al/fs/fs01.jpg',txt:'飞手案例1'},
+                    {img:'images/al/fs/fs02.jpg',txt:'飞手案例2'},
+                    {img:'images/al/fs/fs03.jpg',txt:'飞手案例3'},
+                    {img:'images/al/fs/fs04.jpg',txt:'飞手案例4'}
+                ],
+                qy: [
+                    {img:'images/al/qy/qy01.jpg',txt:'企业案例1'},
+                    {img:'images/al/qy/qy02.jpg',txt:'企业案例2'},
+                    {img:'images/al/qy/qy03.jpg',txt:'企业案例3'},
+                    {img:'images/al/qy/qy04.jpg',txt:'企业案例4'}
+                ],
+                bd: [
+                    {img:'images/al/bd/bd01.jpg',txt:'部队案例1'},
+                    {img:'images/al/bd/bd02.jpg',txt:'部队案例2'},
+                    {img:'images/al/bd/bd03.jpg',txt:'部队案例3'},
+                    {img:'images/al/bd/bd04.jpg',txt:'部队案例4'}
+                ],
+                zf: [
+                    {img:'images/al/zf/zf01.jpg',txt:'政府案例1'},
+                    {img:'images/al/zf/zf02.jpg',txt:'政府案例2'},
+                    {img:'images/al/zf/zf03.jpg',txt:'政府案例3'},
+                    {img:'images/al/zf/zf04.jpg',txt:'政府案例4'}
+                ]
+            };
+            var tabs = document.querySelectorAll('.case-tab');
+            var caseListRow = document.querySelector('.case-list-row');
+            tabs.forEach(function(tab){
+                tab.addEventListener('click',function(){
+                    tabs.forEach(function(t){t.classList.remove('active');});
+                    tab.classList.add('active');
+                    var type = tab.getAttribute('data-type');
+                    var list = tabMap[type];
+                    if(list && caseListRow){
+                        caseListRow.innerHTML = list.map(function(item){
+                            return `<div class='col-12 col-md-3 mb-4 case-item'>
+                                <div class='card border-0 shadow-sm h-100'>
+                                    <img src='${item.img}' class='card-img-top' alt='案例' style='height:220px;object-fit:cover;border-radius:12px 12px 0 0;'>
+                                    <div class='card-body text-center' style='font-size:1.1rem;color:#222;'>${item.txt}</div>
+                                </div>
+                            </div>`;
+                        }).join('');
+                    }
+                });
+            });
+        });
+        </script>
+    </section>
+       <!-- 主体第六栏：金牌教员 -->
+        <section class="w-100 px-0 teacher-section" style="background:#fff;">
+            <div class="container-fluid py-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <h1 style="font-family:'SimHei','黑体',Arial; font-size:3.2rem; font-weight:900; color:#222; margin-bottom:1.2rem;">金牌教员</h1>
+                        <div style="font-size:1.5rem; color:#030f1c; font-weight:500; margin-bottom:2.2rem;">40位金牌教练全程一对一陪伴</div>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center mb-4 teacher-profile-row">
+                    <div class="col-12 d-flex flex-column flex-md-row justify-content-center align-items-center" style="gap:64px;">
+                        <div class="text-center mb-3 mb-md-0" style="margin-right:0;">
+                            <div style="width:320px;height:240px;display:flex;align-items:center;justify-content:center;">
+                                <img id="teacher-main-img" src="images/jy/jy01.jpg" alt="教员头像" style="width:320px;height:240px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.08);">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column align-items-center" style="min-width:100px;margin-right:24px;">
+                            <button id="teacher-list-up" class="btn" style="width:40px;height:32px;padding:0;margin-bottom:8px;background:transparent;border:none;display:flex;align-items:center;justify-content:center;">
+                                <img src="images/icon/arrow_1.jpeg" alt="上箭头" style="width:40px;height:40px;object-fit:contain;">
+                            </button>
+                            <div id="teacher-list-vertical" style="display:flex;flex-direction:column;align-items:center;gap:16px;">
+                                <!-- 小头像列表由JS动态渲染 -->
+                            </div>
+                            <button id="teacher-list-down" class="btn" style="width:40px;height:32px;padding:0;margin-top:8px;background:transparent;border:none;display:flex;align-items:center;justify-content:center;">
+                                <img src="images/icon/arrow_1.jpeg" alt="下箭头" style="width:40px;height:40px;object-fit:contain;transform:rotate(180deg);">
+                            </button>
+                        </div>
+                        <div style="max-width:420px;margin-left:0;">
+                            <div style="width:420px;height:220px;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-start;">
+                                <div id="teacher-title" style="font-size:2rem;font-weight:700;color:#1976d2;">宇智教员-王飞</div>
+                                <div id="teacher-subtitle" style="font-size:1.1rem;color:#555;margin-bottom:0.5rem;">10年飞行经验，6年教学经验</div>
+                                <hr style="border-top:1px solid #e0e3e8; margin:12px 0;">
+                                <ul id="teacher-info" style="font-size:1rem;color:#222;line-height:2;list-style:none;margin-bottom:1.2rem;padding-left:0;">
+                                    <li>中国民用无人机驾驶员考试委任代表</li>
+                                    <li>中国民用无人机行业协会会员</li>
+                                    <li>民航局认证教员</li>
+                                    <li>累计飞行时长10000小时</li>
+                                </ul>
+                                <button class="btn" style="font-size:1.1rem;border-radius:24px;padding:8px 32px;background:#222;color:#fff;">立即预约</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <!-- 教员横向列表已删除，仅保留三列结构和竖向小头像列表 -->
+                    </div>
+                </div>
+            </div>
+            <style>
+                .teacher-section .teacher-thumb.active {
+                    border-color:#1976d2 !important;
+                }
+            </style>
+            <script>
+            // 教员数据
+            const teacherData = [
+                {
+                    img:'images/jy/jy01.jpg', name:'王飞', title:'宇智教员-王飞', subtitle:'10年飞行经验，6年教学经验', info:['中国民用无人机驾驶员考试委任代表','中国民用无人机行业协会会员','民航局认证教员','累计飞行时长10000小时']
+                },
+                {
+                    img:'images/jy/jy02.jpg', name:'李强', title:'宇智教员-李强', subtitle:'8年飞行经验，5年教学经验', info:['中国民用无人机行业协会会员','民航局认证教员','累计飞行时长8000小时']
+                },
+                {
+                    img:'images/jy/jy03.jpg', name:'张伟', title:'宇智教员-张伟', subtitle:'12年飞行经验，7年教学经验', info:['中国民用无人机驾驶员考试委任代表','民航局认证教员','累计飞行时长12000小时']
+                },
+                {
+                    img:'images/jy/jy04.jpg', name:'赵磊', title:'宇智教员-赵磊', subtitle:'9年飞行经验，6年教学经验', info:['中国民用无人机行业协会会员','民航局认证教员','累计飞行时长9000小时']
+                },
+                {
+                    img:'images/jy/jy05.jpg', name:'孙敏', title:'宇智教员-孙敏', subtitle:'7年飞行经验，4年教学经验', info:['中国民用无人机行业协会会员','民航局认证教员','累计飞行时长7000小时']
+                },
+                {
+                    img:'images/jy/jy06.jpg', name:'周刚', title:'宇智教员-周刚', subtitle:'11年飞行经验，8年教学经验', info:['中国民用无人机驾驶员考试委任代表','民航局认证教员','累计飞行时长11000小时']
+                }
+            ];
+            let currentIdx = 0;
+            function updateTeacher(idx) {
+                const t = teacherData[idx];
+                document.getElementById('teacher-main-img').src = t.img;
+                document.getElementById('teacher-title').textContent = t.title;
+                document.getElementById('teacher-subtitle').textContent = t.subtitle;
+                const ul = document.getElementById('teacher-info');
+                ul.innerHTML = t.info.map(i=>`<li>${i}</li>`).join('');
+                document.querySelectorAll('.teacher-thumb').forEach((img,i)=>{
+                    img.classList.toggle('active',i===idx);
+                });
+                renderVerticalList();
+            }
+            // 竖向小头像列表逻辑
+            let verticalStart = 0;
+            function renderVerticalList() {
+                const vList = document.getElementById('teacher-list-vertical');
+                vList.innerHTML = '';
+                for(let i=verticalStart;i<Math.min(verticalStart+3,teacherData.length);i++){
+                    const img = document.createElement('img');
+                    img.src = teacherData[i].img;
+                    img.alt = teacherData[i].name;
+                    img.className = 'teacher-vertical-thumb'+(i===currentIdx?' active':'');
+                    img.style.width = '80px';
+                    img.style.height = '60px';
+                    img.style.objectFit = 'cover';
+                    img.style.borderRadius = '8px';
+                    img.style.boxShadow = '0 2px 8px rgba(0,0,0,0.08)';
+                    img.style.cursor = 'pointer';
+                    img.style.border = i===currentIdx?'2px solid #1976d2':'2px solid transparent';
+                    img.onclick = ()=>{currentIdx=i;updateTeacher(i);};
+                    vList.appendChild(img);
+                }
+            }
+            document.getElementById('teacher-list-up').onclick = function(){
+                if(verticalStart>0){verticalStart--;renderVerticalList();}
+            };
+            document.getElementById('teacher-list-down').onclick = function(){
+                if(verticalStart+3<teacherData.length){verticalStart++;renderVerticalList();}
+            };
+            // 初始化
+            updateTeacher(0);
+            document.getElementById('teacher-prev').onclick = function(){
+                currentIdx = (currentIdx-1+teacherData.length)%teacherData.length;
+                updateTeacher(currentIdx);
+            };
+            document.getElementById('teacher-next').onclick = function(){
+                currentIdx = (currentIdx+1)%teacherData.length;
+                updateTeacher(currentIdx);
+            };
+            // 初始化
+            updateTeacher(0);
+            </script>
+        </section>
+        <!-- 主体第七栏：走近宇智飞翔 -->
+        <section class="w-100 px-0 company-section" style="background:#fff;">
+            <div class="container-fluid" style="padding:0;margin:0;">
+                    <div class="company-bg" style="position:relative;width: 100%;min-height:480px;background:url('images/company_0.jpg') center/cover no-repeat;">
+                       <div class="container py-5" style="position:relative;z-index:1;">
+                        <div class="row justify-content-center">
+                            <div class="col-12 text-center mb-3" style="padding:32px 0 0 0;">
+                                <div class="main-title" style="font-size:2.6rem;font-weight:800;color:#ffffff;letter-spacing:2px;line-height:1.2;">走近宇智飞翔</div>
+                                <div class="main-subtitle" style="font-size:1.15rem;color:#989ea4;margin-top:12px;line-height:2;max-width:800px;margin-left:auto;margin-right:auto;font-weight:500;">专注航空培训教育，致力推进国内航空教育发展，不单打造了适用于从幼儿、小学、中学、中高职院校到成人，各个阶段的完整无人机课程体系，给院校、机构提供无人机课程服务，同时还提供通航有人机运动类驾照培训、娱乐飞行等通航服务</div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-12 text-center">
+                                <img src="images/company.jpg" alt="公司介绍" style="max-width:100%;">
+                            </div>
+                        </div>
+                        <!-- 荣誉/相册/风采/培训现场导航 -->
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-12 text-center">
+                                <nav class="d-inline-flex justify-content-center align-items-center" style="gap:32px;">
+                                    <a href="#" class="comp-nav-link" style="font-size:1.2rem;font-weight:600;color:#1976d2;text-decoration:none;padding:8px 24px;border-radius:24px;transition:background .2s;">荣誉资质</a>
+                                    <a href="#" class="comp-nav-link" style="font-size:1.2rem;font-weight:600;color:#1976d2;text-decoration:none;padding:8px 24px;border-radius:24px;transition:background .2s;">公司相册</a>
+                                    <a href="#" class="comp-nav-link" style="font-size:1.2rem;font-weight:600;color:#1976d2;text-decoration:none;padding:8px 24px;border-radius:24px;transition:background .2s;">学员风采</a>
+                                    <a href="#" class="comp-nav-link" style="font-size:1.2rem;font-weight:600;color:#1976d2;text-decoration:none;padding:8px 24px;border-radius:24px;transition:background .2s;">培训现场</a>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- 图片自动滚动展示区 -->
+                        <div class="row justify-content-center mt-3">
+                            <div class="col-12">
+                                <div class="comp-scroll-wrapper" style="overflow:hidden;box-shadow:0 8px 32px rgba(25,118,210,0.18);border-radius:24px;background:rgba(255,255,255,0.8);position:relative;">
+                                    <div class="comp-scroll-list d-flex align-items-center" style="gap:32px;white-space:nowrap;animation:compScroll 32s linear infinite;">
+                                        <img src="images/comp/com01.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                        <img src="images/comp/com02.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                        <img src="images/comp/com03.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                        <img src="images/comp/com04.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                        <img src="images/comp/com05.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                        <img src="images/comp/com06.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                        <img src="images/comp/com07.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                        <img src="images/comp/com08.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                        <img src="images/comp/com09.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                        <!-- 复制一组图片用于无缝循环 -->
+                                        <img src="images/comp/com01.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                        <img src="images/comp/com02.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                        <img src="images/comp/com03.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                        <img src="images/comp/com04.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                        <img src="images/comp/com05.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                        <img src="images/comp/com06.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                        <img src="images/comp/com07.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                        <img src="images/comp/com08.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                        <img src="images/comp/com09.jpg" style="width:300px;height:225px;object-fit:cover;border-radius:16px;box-shadow:0 2px 16px rgba(0,0,0,0.12);display:inline-block;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <style>
+                        @keyframes compScroll {
+                            0% { transform:translateX(0); }
+                            100% { transform:translateX(-5400px); }
+                        }
+                        .comp-scroll-wrapper {
+                            margin:32px auto 0 auto;
+                            max-width:100vw;
+                        }
+                        .comp-scroll-list img {
+                            box-shadow:0 2px 16px rgba(0,0,0,0.12);
+                        }
+                        .comp-nav-link:hover {
+                            background:#1976d2;
+                            color:#fff !important;
+                        }
+                        </style>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+     
 
     <!-- 页脚 -->
-    <footer class="mt-auto w-100" style="background:#0a2356; color:#fff; position:fixed; left:0; bottom:0; width:100%; z-index:100;">
+    <footer class="mt-auto w-100" style="background:#0a2356; color:#fff; ">
         <!-- 顶部导航栏 -->
         <div class="container pt-3 pb-2">
             <nav class="d-flex justify-content-center align-items-center mb-0" style="font-size:0.95rem;font-family:'SimHei','黑体',Arial;height:4.5rem;display:flex;align-items:center;">
@@ -192,6 +888,7 @@
             });
         </script>
     </footer>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
